@@ -1,0 +1,164 @@
+@media only screen and (max-width: 600px) {
+    .sec0 {
+        height: auto;
+        min-height: 400px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding: 50px 0;
+        position: relative;
+    }
+    .sec1 .rt1 .heading .title h1 {
+        color: #0DA574;
+        font-size: 50px;
+        font-weight: 600;
+    }
+    .sec1 .rt1 .detail h4 {
+        color: black;
+        font-size: 20px;
+        font-weight: 400;
+        padding-top: 10px;
+    }
+    .sec1 .rt1 .searchbar{
+        padding: 10px;
+    }
+    .sec1 .rt1 .searchbar .sdet p{
+        font-size: 12px;
+    }
+    .sec1 .rt1 .searchbar .sicon {
+        float: right;
+        height: 40px;
+        width: 40px;
+    }
+    .sec1 .rt1 .view .viewtender .tdet h6{
+        font-size: 12px;
+    }
+    .sec1 .rt1 .view .viewtender .tdet p{
+        font-size: 10px;
+    }
+    .sec1 .rt1 .view .viewtender .icon i {
+        color: #8C8C8C;
+        font-size: 14px;
+    }
+    
+    .sec3 .sec3title {
+        padding-top: 30px;
+    }
+    .sec3 .sec3title h1 {
+        color: white;
+        font-size: 50px;
+    }
+
+    .sec4 .sec4down .testimonial .pic img {
+        width: 100%;
+        height: auto;
+    }
+    .sec4 .sec4down .testimonial {
+        text-align: center;
+        width: 100%;
+        height: 100px;
+    }
+    .sec5 {
+        float: left;
+        width: 100%;
+        padding: 0;
+    }
+    .sec5 .sec5rgt {
+        float: left;
+        width: 100%;
+        height: 500px;
+    }
+    .sec5rgt .c1{
+        position: absolute;
+        width: 170px;
+        height: 130px;
+        top: 0%;
+        left: 0%;
+        z-index: 1;
+    }
+    .sec5rgt .c2{
+        position: absolute;
+        width: 160px;
+        height: 110px;
+        top: 50%;
+        left: 0%;
+        z-index: 1;
+    }
+    .sec5rgt .c3{
+        position: absolute;
+        width: 120px;
+        height: 120px;
+        bottom: 10%;
+        left: 33%;
+        z-index: 0;
+    }
+    .sec5rgt .c4{
+        position: absolute;
+        width: 150px;
+        height: 150px;
+        bottom: 47%;
+        left: 26%;
+        z-index: 0;
+    }
+    .sec5rgt .c5{
+        position: absolute;
+        width: 130px;
+        height: 130px;
+        bottom: 32%;
+        right: -1%;
+        z-index: 1;
+    }
+    .sec5rgt .c6{
+        position: absolute;
+        width: 120px;
+        height: 120px;
+        top: 2%;
+        right: 15%;
+        z-index: 1;
+    }
+    
+    .sec6 {
+        margin: 50px 0;
+    }
+
+    .sec7 .container {
+        padding: 0 30px;
+    }
+    .sec7 .offer .sec7lft img {
+        width: 100%;
+        height: auto;
+        max-height: 250px;
+        border-radius: 30px;
+    }
+    .sec7 .offer .sec7rgt {
+        float: left;
+        width: 100%;
+        padding: 20px;
+    }
+    .sec7 .offer .sec7rgt .sec7dd {
+        width: 100%;
+    }
+    .sec7 .offer .sec7rgt .sec7dd h4 {
+        color: black;
+        font-size: 22px;
+        text-align: left !important;
+    }
+
+    .mail .mailbtn {
+        background-color: #0DA574;
+        border-radius: 30px;
+        padding: 5px 15px;
+        color: #F6F6F6;
+        font-size: 12px;
+        font-weight: 700;
+    }
+    footer{
+        margin: 0;
+    }
+    footer .abtwave {
+        position: relative;
+        top: -5px;
+    }    
+  
+
+}
+    
