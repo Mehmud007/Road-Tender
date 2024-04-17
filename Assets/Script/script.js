@@ -63,6 +63,23 @@ $(document).ready(function () {
   });
 });
 
+// ------------ Advanced Filter ----------------
+
+
+
+$('#advanced-options').hide();
+
+// toggle advanced options
+$('#adv-search-btn').click(function() {
+  $('#advanced-options').slideToggle("fast");
+});
+
+$('#adv-filter li').click(function () {
+  $('#adv-filter li.active').removeClass('active');
+  $(this).addClass('active'); 
+  
+ 
+});
 
 
 

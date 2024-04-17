@@ -1124,3 +1124,308 @@ footer .copyright p{
     /* font-size: 20px;
     font-weight: 600; */
 }
+/* ------------------------- */
+
+/* ------------- Dashboard ---------- */
+
+.dashtitle{
+    float: left;
+    width: 100%;
+    padding: 30px 0 0;
+}
+.dashtitle h1{
+    color: #0DA574;
+    font-size: 40px;
+    font-weight: 700;
+}
+.dashmainsec{
+    float: left;
+    width: 100%;
+    padding: 0 0 30px;
+}
+.dashmainsec .dashlft{
+    float: left;
+    width: 100%;
+    padding: 30px 0;
+}
+.dashmainsec .dashlft .srchbar{
+    float: left;
+    width: 100%;
+    padding: 0;
+}
+.dashmainsec .dashlft .srchbar .f1{
+    float: left;
+    width: 100%;
+    background: transparent;
+    border: 1px solid #D9D9D9;
+    padding: 5px 20px;
+    border-radius: 40px;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    margin: 20px 0;
+}
+.dashmainsec .dashlft .srchbar .f1 .bar{
+    float: left;
+    width: 100%;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+}
+.dashmainsec .dashlft .srchbar .f1 .bar i{
+    color: #474747;
+    font-size: 20px;
+}
+.dashmainsec .dashlft .srchbar .f1 .srch{
+    float: left;
+    width: 80%;
+    border: none;
+}
+.dashmainsec .dashlft .srchbar .f1 .sort{
+    float: left;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.dashmainsec .dashlft .srchbar .f1 .sort span{
+    color: #474747;
+    font-size: 20px;
+    font-weight: 600;
+    /* padding-right: 20px; */
+}
+.dashmainsec .dashlft .srchbar .f1 .sort .dropdown .btn{
+   color: #474747;
+   background-color: transparent;
+}
+.dashmainsec .dashlft .srchbar .f1 .sort .dropdown .btn:focus {
+    outline: 0;
+    box-shadow:none;
+}
+.dashmainsec .dashlft .srchbar .f1 .sort .dropdown .dropdown-menu.show{
+    min-width: 120px !important;
+    left: -10px;
+    top: 5px;
+}
+
+.dashmainsec .dashlft .filter{
+    float: left;
+    width: 100%;
+    padding: 0;
+    margin: 20px 0;
+    border: 1px solid #0DA574;
+    border-radius: 10px;
+    padding: 10px 0;
+}
+.dashmainsec .dashlft .filter .fltitle{
+    float: left;
+    width: 100%;
+    
+}
+.dashmainsec .dashlft .filter .fltitle h2{
+    color: #0DA574;
+    font-size: 18px;
+    font-weight: 700;
+    text-align: center;
+    margin: 0;
+}
+.dashmainsec .dashlft .filter #advanced-options{
+    float: left;
+    width: 100%;
+}
+.dashmainsec .dashlft .filter #advanced-options{
+    float: left;
+    width: 100%;
+}
+.dashmainsec .dashlft .filter #advanced-options .adf1{
+    float: left;
+    width: 100%;
+    margin: 20px 0;
+}
+.dashmainsec .dashlft .filter #advanced-options .adf1 .abc{
+    float: left;
+    width: 100%; 
+    padding: 5px 10px;
+    background-color: transparent;
+    border: 1px solid #C2C2C2;
+    border-radius: 5px;
+}
+
+.dashmainsec .dashlft .filter #advanced-options .adf2{
+    float: left;
+    width: 100%;
+    margin: 20px 0;
+}
+.dashmainsec .dashlft .sdate{
+    float: left;
+    width: 100%;
+    margin: 20px 0;
+}
+.dashmainsec .dashlft .sdate h3{
+   color: #0DA574;
+   font-size: 16px;
+   font-weight: 600;
+}
+.dashmainsec .dashlft .sdate .date{
+    float: left;
+    width: 100%;
+    padding: 0;
+}
+.dashmainsec .dashlft .sdate .date label{
+    color: #FFC452;
+    font-size: 16px;
+    font-weight: 600;
+}
+.dashmainsec .dashlft .advsrch{
+    float: left;
+    width: 100%;
+    margin: 20px 0;
+    text-align: center;
+}
+.dashmainsec .dashlft .advbtn{
+    color: #fff;
+    background-color: #001F3F;
+    font-size: 16px;
+    padding: 5px 30px;
+    border-radius: 5px;
+}
+
+
+
+
+.dashmainsec .dashlft .mainlist{
+    float: left;
+    width: 100%;
+}
+.dashmainsec .dashlft .mainlist .list {
+    float: left;
+    width: 100%;
+    padding: 20px 40px;
+    background-color: white;
+    box-shadow: 0 8px 10px -6px #969696;
+    margin: 20px 0;
+}
+.dashmainsec .dashlft .mainlist .list .l1{
+    float: left;
+    width: 100%;
+    padding: 15px;
+}
+.dashmainsec .dashlft .mainlist .list .l1 .l1title{
+    float: left;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+.dashmainsec .dashlft .mainlist .list .l1 .l1title h4{
+   color: #474747;
+   font-size: 18px;
+   font-weight: 700;
+   margin: 0;
+   margin-right: 30px;
+}
+.dashmainsec .dashlft .mainlist .list .l1 .l1title img{
+   height: 36px;
+   width: auto;
+}
+.dashmainsec .dashlft .mainlist .list .l2{
+    float: left;
+    width: 100%;
+    padding: 15px;
+}
+.dashmainsec .dashlft .mainlist .list .l2 .l2det{
+    float: left;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding: 0;
+}
+.dashmainsec .dashlft .mainlist .list .l2 .l2det h4{
+    color: #474747;
+    font-size: 18px;
+    font-weight: 700;
+    margin: 0;
+}
+.dashmainsec .dashlft .mainlist .list .l2 .l2det span{
+    color: #474747;
+    font-size: 18px;
+    font-weight: 500;
+    margin: 0;
+}
+.dashmainsec .dashlft .mainlist .list .l3{
+    float: left;
+    width: 100%;
+    padding: 15px;
+}
+.dashmainsec .dashlft .mainlist .list .l3 p{
+    color: #474747;
+    font-size: 18px;
+    font-weight: 400;
+    margin: 0;
+}
+.dashmainsec .dashlft .mainlist .list .l4{
+    float: left;
+    width: 100%;
+    padding: 15px;
+}
+.dashmainsec .dashlft .mainlist .list .l4 .l4location{
+    float: left;
+    width: 100%;
+    padding: 0;
+}
+.dashmainsec .dashlft .mainlist .list .l4 .l4location i{
+    color: #60BBEE;
+    font-size: 18px;
+}
+.dashmainsec .dashlft .mainlist .list .l4 .l4location span{
+    color: #474747;
+    font-size: 18px;
+    font-weight: 500;
+}
+.dashmainsec .dashlft .mainlist .list .l4 .l4key{
+    float: left;
+    width: 100%;
+    padding: 0;
+    /* display: flex;
+    align-items: center; */
+}
+.dashmainsec .dashlft .mainlist .list .l4 .l4key #sp1{
+    color: #474747;
+    font-size: 18px;
+    font-weight: 700;
+    margin: 0;
+}
+.dashmainsec .dashlft .mainlist .list .l4 .l4key span{
+    color: #474747;
+    font-size: 18px;
+    font-weight: 500;
+    margin: 0;
+}
+.dashmainsec .dashlft .viewall{
+    float: left;
+    width: 100%;
+    padding: 20px 0;
+}
+.dashmainsec .dashlft .viewall .viewbtn{
+    color: #474747;
+    font-size: 18px;
+    padding: 5px 30px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 8px 10px -6px #969696;
+}
+
+.dashmainsec .dashrgt {
+    float: left;
+    width: 100%;
+    /* padding: 20px 0; */
+}
+.dashmainsec .dashrgt .ads{
+    float: left;
+    width: 100%;
+    /* padding: 20px 0; */
+}
+.dashmainsec .dashrgt .ads{
+    float: left;
+    width: 100%;
+    /* padding: 20px 0; */
+}
